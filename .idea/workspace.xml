@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,16 +53,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Harry Jiang\OneDrive\文档\GitHub\SMASHERS19601.github.io\about new" />
-      <recent name="C:\Users\Harry Jiang\OneDrive\文档\GitHub\SMASHERS19601.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harry Jiang\OneDrive\文档\GitHub\SMASHERS19601.github.io\schedule\images" />
       <recent name="D:\hary34.github.io-main\contact" />
       <recent name="D:\hary34.github.io-main\about\images" />
       <recent name="D:\hary34.github.io-main\about" />
       <recent name="D:\WebSIte\hary34.github.io\index" />
-      <recent name="D:\WebSIte\hary34.github.io\about" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Harry Jiang\OneDrive\文档\GitHub\SMASHERS19601.github.io\about new" />
+      <recent name="C:\Users\Harry Jiang\OneDrive\文档\GitHub\SMASHERS19601.github.io" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (2)">
@@ -131,22 +133,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1685" height="297" key="GridCell.Tab.0.bottom" timestamp="1670747956371">
+    <state x="584" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1672039895401">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1685" height="297" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1670747956371" />
-    <state width="1685" height="297" key="GridCell.Tab.0.center" timestamp="1670747956371">
+    <state x="584" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.912@0.0.1707.912" timestamp="1672039895401" />
+    <state width="1685" height="297" key="GridCell.Tab.0.bottom" timestamp="1672040502152">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1685" height="297" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1670747956371" />
-    <state width="1685" height="297" key="GridCell.Tab.0.left" timestamp="1670747956371">
+    <state width="1685" height="297" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1672040502152" />
+    <state width="1685" height="297" key="GridCell.Tab.0.center" timestamp="1672040502152">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1685" height="297" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1670747956371" />
-    <state width="1685" height="297" key="GridCell.Tab.0.right" timestamp="1670747956371">
+    <state width="1685" height="297" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1672040502152" />
+    <state width="1685" height="297" key="GridCell.Tab.0.left" timestamp="1672040502151">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1685" height="297" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1670747956371" />
+    <state width="1685" height="297" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1672040502151" />
+    <state width="1685" height="297" key="GridCell.Tab.0.right" timestamp="1672040502152">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1685" height="297" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1672040502152" />
     <state width="1685" height="297" key="GridCell.Tab.1.bottom" timestamp="1670747956371">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
