@@ -1,0 +1,150 @@
+body, div, h2, form, fieldset, input, textarea, footer, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+#wrap{
+	width: 530px;
+	margin: 20px auto 0;
+	height: 1000px;
+
+	display: table-cell;
+
+	text-align: left;
+	align-items: center;
+}
+#wrap h1{
+
+	padding-left: 300px;
+	text-align: left;
+	font-size: 35px;
+	font-family: tahoma;
+	color: #b1904c;
+}
+#form-wrap{
+	overflow: hidden;
+	height: 447px;
+	position: relative;
+	top: 0px;
+	transition: all 1s ease-in-out .3s;
+}
+#form-wrap:before{
+	content: "";
+	position: absolute;
+	bottom: 128px;
+	left: 0px;
+	background: #B17A4C;
+	width: 530px;
+	height: 300px;
+	border-radius: 50px;
+}
+#form-wrap:after{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	background: #b1904c;
+	width: 530px;
+	height: 280px;
+	border-radius: 50px;
+}
+#form-wrap.hide:after,
+#form-wrap.hide:before{
+	display: none;
+}
+#form-wrap:hover{
+	height: 777px;
+	top:-200px;
+}
+
+form{
+	background: #fff;
+	position: relative;
+	top: 200px;
+	overflow: hidden;
+	height: 200px;
+	width: 400px;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid white;
+	border-right: 3px;
+	transition: all 1s ease-in-out .3s;
+	border-radius: 30px;
+}
+#form-wrap:hover form{
+	height: 777px;
+	top:70px
+}
+form:hover{
+	height: 777px;
+	top:70px
+}
+
+
+#title{
+	margin-top: 100px;
+	font-size: 36px;
+	color: #b1904c;
+}
+lable{
+	margin: 11px 20px 0 0;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+input[type=text], textarea{
+	font: 14px normal uppercase, arial, serif;
+	color: white;
+	background: none;
+	width: 360px;
+	height: 37px;
+	padding: 0px 10px;
+	margin: 0 0 10px 0;
+	border: 1px solid #cbcdda;
+	border-radius: 5px;
+}
+#contact-us{
+	background-color: #5a0000;
+}
+.contact-us{
+	background-color: #5a0000;
+
+}
+textarea{
+	height: 80px;
+
+	padding-top: 14px;
+}
+textarea:focus,
+input[type=text]:focus{
+	background: white;
+	color: #090909;
+}
+#form-wrap input[type=submit]{
+
+	font-size: 24px;
+	color: #090909;
+
+	text-align: center;
+	opacity: 0;
+	background: none;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: opacity 0.7s ease-in-out 0s;
+}
+#form-wrap:hover input[type=submit]{
+	z-index: 1;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out 1.3s;
+}
+img{
+	alignment: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	max-width: 1000px;
+	max-height: 1000px;
+	box-shadow: 2px 2px 10px #c99b40;
+	border-radius: 10px;
+}
