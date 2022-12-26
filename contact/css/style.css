@@ -90,7 +90,7 @@ lable{
 }
 input[type=text], textarea{
 	font: 14px normal uppercase, arial, serif;
-	color: white;
+	color: #000000;
 	background: none;
 	width: 360px;
 	height: 37px;
