@@ -145,62 +145,6 @@ img{
 	margin-right: 30%;
 	max-width: 1000px;
 	max-height: 1000px;
-	box-shadow: 2px 2px 5px #c99b40;
+	box-shadow: 2px 2px 10px #c99b40;
 	border-radius: 10px;
-}
-#side-navbar{
-
-	background: #5a0000;
-	color: #B1904C;
-
-
-}
-#side-navbar ul{
-	margin-right: 30px;
-	align-items: center;
-	list-style: none;
-
-
-}
-.container_1{
-	height: 80px;
-	text-align: center;
-
-
-	justify-content: center;
-
-}
-#side-navbar li{
-
-	display: inline;
-}
-.button {
-	margin-top: 10px;
-	border: none;
-	color: #b1904c;
-
-	font-size: 18px;
-	border-radius: 0.5em;
-	background: #3c0000;
-
-
-
-
-}
-#side-navbar ul li button.current{
-	background: #500000;
-	color:#B17A4C;
-
-}
-.button:hover {
-	border: 1px solid #500000;
-	background: #500000;
-}
-#side-navbar{
-
-	background: #500000;
-}
-#btn1{
-	background: #500000;
-	color:#B17A4C;
 }
