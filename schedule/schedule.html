@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../index/style.css">
     <link rel="stylesheet" href="css/style.css">
     <title>上海康德双语学校SMASHERS战队官网 | 联系我们</title>
+
 </head>
+
 <body>
 <div class="contact-us">
 <nav id="navbar">
@@ -24,11 +26,49 @@
         </ul>
     </div>
 </nav>
+    <nav id="side-navbar">
+
+        <div class="container_1">
+            <script>
+
+
+                function SetCurrent(a) {
+                    var content=document.getElementById("list1");
+
+                    for(var i=0;i<content.children.length;i++){
+                        if(a===content.children[i].children[0].id){
+
+                            content.children[i].children[0].style.background="#500000";
+                            content.children[i].children[0].style.color="#B17A4C";
+                        }else{
+                            content.children[i].children[0].style.background="#3c0000";
+                            content.children[i].children[0].style.color="#b1904c";
+                        }
+
+                    }
+
+
+                }
+                function SetContent(a,b) {
+                    document.getElementById("title").innerHTML=a;
+                    document.getElementById("img-content").setAttribute("src",b)
+
+                }
+
+            </script>
+            <ul id="list1">
+                <li><button id="btn1" class="button" onclick="SetCurrent('btn1');SetContent('训练计划书','images/image.png');">训练计划书1</button></li>
+                <!--<li><button id="btn2" class="button" onclick="SetCurrent('btn2');SetContent('训练计划书2','images/image.png')">训练计划书2</button></li>
+                <li><button id="btn3" class="button" onclick="SetCurrent('btn3');SetContent('训练计划书3','images/image.png')">训练计划书3</button></li>-->
+
+            </ul>
+        </div>
+    </nav>
 <section id="contact-us">
     <div id="wrap">
         <h1 id="title">训练计划书</h1>
         <br/><br/>
-        <img src="images/image.png" alt="" />
+        <img id="img-content" src="images/image.png" alt="" />
     </div>
 
 </section>
